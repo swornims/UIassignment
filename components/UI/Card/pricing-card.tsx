@@ -9,7 +9,7 @@ export default function PricingCard(props: PricingCardProps) {
   const { plan } = props;
   return (
     <article
-      className={`w-full md:w-96 h-fit mx-auto text-center ${plan.bgColor} rounded-2xl shadow-lg`}
+      className={`w-full md:w-96 h-fit mx-auto text-center ${plan.bgColor} rounded-2xl shadow-lg hover:outline hover:outline-customColor transition-all`}
     >
       <div className="space-y-3 pt-8 px-8">
         <Image
